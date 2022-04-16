@@ -1,7 +1,13 @@
-.nav-link:hover{
-	background: #d1d1d1;
+.project-icon {
+  /*min-width: 15%;*/
+  width: 15%;
 }
 
-.navbar-brand:hover{
-	background: #d1d1d1;
+.project-desc {
+  width: 85%;
+  word-wrap: break-word;
+  /*white-space: nowrap;*/
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+
