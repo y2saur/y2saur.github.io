@@ -11,3 +11,16 @@
   text-overflow: ellipsis;
 }
 
+.contact-link:hover {
+  color: #9f9f9f;
+}
+
+.contact-logo:hover{
+  animation: pulse 1s;
+  animation-timing-function: linear; 
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1);}
+  100% { transform: scale(1); }
+}
