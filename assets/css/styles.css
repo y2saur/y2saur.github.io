@@ -11,8 +11,8 @@
   text-overflow: ellipsis;
 }
 
-.contact-link:hover {
-  color: #9f9f9f;
+#link:hover {
+  color: #8f8f8f !important;
 }
 
 .contact-logo:hover{

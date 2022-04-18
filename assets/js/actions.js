@@ -35,9 +35,32 @@ $(".contact-logo").click(function(e){
         $(this).addClass("active");
     });
 
+    
     $(".contact-link").toggle(100, function(){
-        $(this).html("github.com.ph.jsdk");
-        $(".contact-link").toggle(500);
+        $(this).html("linkedin.com/in/jose-iii-aquino");
+        $(this).attr("href", "");
+        if(id == 1){//Github
+            $(this).html("https://github.com/y2saur");
+            $(this).attr("href", "https://github.com/y2saur");
+        }
+        else if(id == 2){//GMail
+            $(this).html("joseiiiaquino@gmail.com");
+            $(this).attr("href", "");
+        }
+        else if(id == 3){//Linked in
+            $(this).html("linkedin.com/in/jose-iii-aquino");
+            $(this).attr("href", "https://linkedin.com/in/jose-iii-aquino");
+        }
+        // else if(id == 4){//IG
+        //     $(this).html("joseiiiaquino@gmail.com");
+        //     $(this).attr("href", "");
+        // }
+        // else if(id == 5){//Twitter
+        //     $(this).html("joseiiiaquino@gmail.com");
+        //     $(this).attr("href", "");
+        // }
+        // $(this).html("github.com.ph.jsdk");
+        $(".contact-link").toggle(300);
     })
     
 });
